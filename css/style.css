@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: "Merriweather", serif;
+    margin: 0;
+    height: auto;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+main {
+    max-width: 750px;
+    margin: auto;
+}
+
+#game {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#landing-text {
+    display: flex;
+    flex: 0 1 40vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn {
+    padding: 0.5rem 2rem;
+    border: 1px #eee solid;
+    display: inline-block;
+    margin: 2rem 0 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #eee;
+    transition: background 500ms ease;
+}
+
+.btn:hover {
+    background: #a3a3a3;
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin: 1rem;
+}
